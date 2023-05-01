@@ -1,0 +1,58 @@
+
+
+body {
+  background-color: rgb(30, 187, 206, 10%);
+}
+nav {
+  box-shadow: 1px 1px 3px lightgrey;
+  height: 5rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  font-family: Inter;
+  font-weight: bold;
+  padding-right: 3rem;
+  text-shadow: 2px 2px 3px lightgrey;
+}
+
+.navbar-brand span {
+  font-size: 3rem;
+  color: #1ebbce;
+}
+
+.nav-item{
+	padding-right:1.5rem;
+}
+
+.signIn {
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.lang-switch {
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.nav-item .lang-switch a {
+  color: black;
+}
+
+.btn-outline-sm {
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  padding-inline: 2rem;
+  padding-block: 0.3rem;
+  border-radius: 50px;
+}
+
+.navbar-collapse {
+  padding-top: 0.8rem;
+}
+main {
+ margin-bottom: 5rem;
+ background-color: white;
+}
